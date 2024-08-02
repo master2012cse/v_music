@@ -65,14 +65,8 @@ const [isLoading,setIsLoading] = useState(true)
 
 <div className='container'>
 <div className={`row${isLoading? "" : "d-none"}`}>
-  <div className='col-12 py-5 text-center'>
-  <div
-  className="spinner-border"
-  style={{ width: "3rem", height: "3rem" }}
-  role="status"
->
-  <span className="visually-hidden">Loading...</span>
-</div>
+  <div className='col-12 py-4 text-center'>
+ 
 
   </div>
 </div>
